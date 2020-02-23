@@ -12,13 +12,9 @@ https://github.com/lazyparser/becoming-a-compiler-engineer-codes
 
 https://www.bilibili.com/video/av78503049
 
-第二课：词法分析（有作业）（已经并入到整体的课程播放列表中。本链接为了保持完整性依然保留）
-
-https://www.bilibili.com/video/av79038590
-
 本仓库地址是
 
 https://github.com/lazyparser/becoming-a-compiler-engineer
 
-计划更新至2020年6月。
+计划更新至2020年8月(收到COVID-19影响延长2个月)。
 
