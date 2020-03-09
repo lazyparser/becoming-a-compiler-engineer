@@ -1,0 +1,196 @@
+# 编译技术入门与实战
+
+## Cooper 教授 L17-IR 评注
+
+### 0
+
+从业多年之后才能看懂里面的感悟
+
+### 1
+
+Mea culpa is a Latin phrase that means "through my fault" and is an acknowledgement of having done wrong. Grammatically, meā culpā is in the ablative case, with an instrumental meaning. Wikipedia
+
+amnesty 大赦天下
+
+### 2
+
+cusp
+/kəsp/
+Learn to pronounce
+noun
+noun: cusp; plural noun: cusps
+
+    1.
+    a point of transition between two different states.
+    "those on the cusp of adulthood"
+    2.
+    a pointed end where two curves meet.
+
+Oxford Dict
+
+这种乐趣门外汉是感受不到的，正所谓「初闻不识曲中意，再闻已是曲中人」。
+
+
+### 3
+
+前端 --IR--> 优化器
+
+信息的表达方式决定了相关算法的能力
+
+### 4
+
+IR： 信息的载体。哪些信息上船，哪些放在显眼位置。
+
+优化器能看到的只有IR，IR没有的都看不到。
+
+现在IR中允许加入各种annotation/attributes，在不改变IR的情况下加信息。就像是货运船上的集装箱。
+
+### 5
+
+这些设计的考虑，我们这门课的朋友大概有一个概念认识就行。
+
+设计的取舍需要时间，动手尝试很多组合之后，形成 **自己的经验和喜好** 。
+
+### 6
+
+同上一页 slide
+
+### 7
+
+同上一页 slide
+
+### 8
+
+略
+
+### 9
+
+IR形式上的分类
+参考 EaC 书中的解释
+
+### 10
+
+直观的例子，略。
+
+### 11
+
+抽象层次和数据组织形式不是统一的。
+
+### 12
+
+静态代码检查和程序理解一般会用到语法树
+
+### 13
+
+静态代码检查和程序理解一般会用到AST，更简洁。
+解释器有时候也可以直接用AST计算。
+
+### 14
+
+注意这里 value 的涵义。value 是多义词。
+
+value numbering 是一个很经典的算法。GVN基本都有实现。
+
+### 15
+
+具体实现，比较简单。
+二叉树和任意树转换算法看《数据结构》
+
+### 16
+
+依赖关系有数据的和控制流的，这里说的是BB内，不考虑控制流。
+数据的关系是通过变量之间的 def use 体现的。后面有算法。
+
+### 17
+
+调用图要更后一点才遇到。
+体现函数/方法之间的相互关系
+
+### 18
+
+di·gres·sion
+/ˌdīˈɡreSH(ə)n/
+Learn to pronounce
+noun
+noun: digression; plural noun: digressions
+
+    a temporary departure from the main subject in speech or writing.
+
+rant
+/rant/
+Learn to pronounce
+verb
+verb: rant; 3rd person present: rants; past tense: ranted; past participle: ranted; gerund or present participle: ranting
+
+    speak or shout at length in a wild, impassioned way.
+    "she was still ranting on about the unfairness of it all"
+
+noun
+noun: rant; plural noun: rants
+
+    a spell of ranting; a tirade.
+    "his rants against organized religion"
+
+技术细节，所有的对比都应该是整数比较，为了速度。
+几乎所有的VM都会对字符串进行特殊的处理。
+有的会对小字符串进行特殊处理，例如40字节以内的变量名或字面量。
+
+后面就跟L18-IR的内容类似了。
+
+### 19
+
+index page
+
+### 20
+
+三地址的地址可以理解为operand
+是概念上的3地址
+最多不超过3个，可以少于3个
+
+### 21
+
+Quadruples 四元组 = 三地址 + opcode
+所以可以有一张表格来表达
+注意，数据流向是从左到右还是从右到左是喜好，没有规则。
+
+### 22
+
+Triples 三元组 = 三地址 + opcode - 结果operand
+隐藏的去哪里了？去到行号（序列ID）里面了。
+
+squint
+/skwint/
+1. look at someone or something with one or both eyes partly closed in an attempt to see more clearly or as a reaction to strong light.
+
+### 23
+
+没看懂要表达什么
+
+### 24
+
+考古：技术积累的重要过程。
+计算机科学的历史很短，鼓励多阅读原始文献
+
+### 25
+
+考古x2
+
+### 26
+
+二地址码可能就只有虚拟机里面了。
+X86？
+
+### 27
+
+栈指令集，操作数的制定可以嵌入到opcode里面。
+例如 multiply a b -> c 可以假设 a b 在栈上，计算后 c 压栈。
+最出名的是 JavaVM。
+V8 解释器和 Dalvik 使用的 reg based。
+
+如果你感兴趣，可以找：
+Virtual Machine Showdown: Stack Versus Registers
+
+### 28
+
+index slide
+
