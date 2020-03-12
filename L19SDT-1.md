@@ -2,6 +2,9 @@
 
 ## Cooper 教授 L19SDT-1 评注
 
+SDT 可以理解为 parser 给了一个搭车构建AST、符号表的机会。
+如何使用好 parser 给的 hooks，是靠经验技巧的。
+
 ### 0 - 5
 
 略
