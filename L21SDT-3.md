@@ -97,6 +97,8 @@ storage layout 是头大的内容之一
 
 AR = 活动记录，一般就是栈帧 stack frame
 
+注意不同的OSxArchxABI的组合，AR可能不一样。
+
 ### 26
 
 mangle - Bing dictionary
