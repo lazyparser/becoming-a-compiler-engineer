@@ -18,3 +18,6 @@ https://github.com/lazyparser/becoming-a-compiler-engineer
 
 计划更新至2020年8月(收到COVID-19影响延长2个月)。
 
+可以参考的学生作业
+
+https://github.com/wenwensong114/scanner
