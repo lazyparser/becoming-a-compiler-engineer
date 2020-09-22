@@ -21,3 +21,8 @@ https://github.com/lazyparser/becoming-a-compiler-engineer
 可以参考的学生作业
 
 https://github.com/wenwensong114/scanner
+
+可以参考的教材：
+
+https://pandolia.net/tinyc/index.html
+偏实战，用简单和易于实现的实例来描述基本的编译原理及过程
