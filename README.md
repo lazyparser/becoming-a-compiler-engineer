@@ -4,43 +4,17 @@
 
 每周五、周六的下午3点到4点之间进行讨论课，线上腾讯会议的形式，欢迎加入讨论。进入方式是添加我（lazyparser）的微信 fangzhang1024 （备注编译课程）进入微信学习群，每次会议的通知会在群里发出来。以及一些资源也会在群里贴出。
 
-### 第07次讨论：为 rvv-llvm 添加一个 intrinsic (廖春玉)
-
-课程视频回放：
-https://www.bilibili.com/video/bv1PA411j79G
-
-另外由于下周六11月14日我要参加在南京的一个会议，讨论班暂停一次。11月13日的讨论班正常进行（如果没有其他变更的话）
-
-### 第06次讨论：指令选择、Zfinx、MIT作业
-
-课程视频回放：
-https://www.bilibili.com/video/BV1Tz4y1y7Ng
-
-### 第05次讨论：Tiger编译器RISC-V后端、MLIR运行GEMM在蜂鸟FPGA评估版上
-
-课程视频回放：
-https://www.bilibili.com/video/BV14t4y1e7nJ
-
-
-### 第04次讨论：Register Scavenger、编译优化简介
-
-课程视频回放：
-https://www.bilibili.com/video/BV1Qt4y1Y7yc
-
-### 第03次讨论：LLVM、SDT、作业
-
-课程视频回放：
-https://www.bilibili.com/video/bv1Ky4y1879o
-
-### 第02次讨论：EaC ch4、LLVM IR、shecc 教学编译器
-
-课程视频回放：
-https://www.bilibili.com/video/BV1zA41177SH
-
-### 第01次讨论：《编译器设计》前三章回顾
-
-课程视频回放：
-https://www.bilibili.com/video/BV1454y1m7EF
+- 第11次讨论：LLVM寄存器表示、RISC-V指令集学习方法 [video](https://www.bilibili.com/video/BV1kp4y1z7JU)
+- 第10次讨论：RV32Emu-Next [video](https://www.bilibili.com/video/BV1nv411r7yf)
+- 第09次讨论：LLVM GlobalISel、RISC-V Zfinx GNU Impl [video](https://www.bilibili.com/video/BV1iz4y1y7Xe)
+- 第08次讨论：OpenJ9、LLVM、RISC-V、Zfinx [video](https://www.bilibili.com/video/BV1hv411r7ns)
+- 第07次讨论：为 rvv-llvm 添加一个 intrinsic (廖春玉) [video](https://www.bilibili.com/video/bv1PA411j79G)
+- 第06次讨论：指令选择、Zfinx、MIT作业 [video](https://www.bilibili.com/video/BV1Tz4y1y7Ng)
+- 第05次讨论：Tiger编译器RISC-V后端、MLIR运行GEMM在蜂鸟FPGA评估版上 [video](https://www.bilibili.com/video/BV14t4y1e7nJ)
+- 第04次讨论：Register Scavenger、编译优化简介 [video](https://www.bilibili.com/video/BV1Qt4y1Y7yc)
+- 第03次讨论：LLVM、SDT、作业 [video](https://www.bilibili.com/video/bv1Ky4y1879o)
+- 第02次讨论：EaC ch4、LLVM IR、shecc 教学编译器 [video](https://www.bilibili.com/video/BV1zA41177SH)
+- 第01次讨论：《编译器设计》前三章回顾 [video](https://www.bilibili.com/video/BV1454y1m7EF)
 
 ## 2019 秋季
 
