@@ -44,7 +44,7 @@ https://www.bilibili.com/video/av78503049
 
 https://github.com/lazyparser/becoming-a-compiler-engineer
 
-计划更新至2020年8月(收到COVID-19影响延长2个月)。
+计划更新至2020年8月(受到COVID-19影响延长2个月)。
 
 可以参考的学生作业
 
