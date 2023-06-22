@@ -7,7 +7,7 @@ https://www.bilibili.com/video/bv14b4y1X7uX
 
 ## 2020 秋季 本学期课程更名为 **PLCT编译器设计讨论班（2020秋）**
 
-每周五、周六的下午3点到4点之间进行讨论课，线上腾讯会议的形式，欢迎加入讨论。进入方式是添加我（lazyparser）的微信 fangzhang1024 （备注编译课程）进入微信学习群，每次会议的通知会在群里发出来。以及一些资源也会在群里贴出。
+每周五、周六的下午3点到4点之间进行讨论课，线上腾讯会议的形式，欢迎加入讨论。进入方式是添加我（lazyparser）的微信 lazyparser （备注编译课程）进入微信学习群，每次会议的通知会在群里发出来。以及一些资源也会在群里贴出。
 
 - 第16次讨论：RISC-V ABI 介绍 by 林思南 [video](https://www.bilibili.com/video/BV1bz4y1S71o)
 - 第15次讨论：GCC入门（二）RTL by 陈嘉炜 [video](https://www.bilibili.com/video/BV1gy4y1H7bg)
